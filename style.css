@@ -7,3 +7,33 @@
     font-size: 25px;
     font-weight: bold;
 }
+
+.pricelist{
+    border:1px solid black;
+}
+
+table{
+    border:1px solid black;
+    width:1000px;
+}
+
+td,th{
+    text-align: left;
+    padding:8px;
+}
+footer{
+    text-align: center;
+    font-family:'times New Roman',times,serif;
+    font-size:10px;
+    padding:3px;
+    background-color:orange ;
+    color:black;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 1000px;
+
+
+
+
+}
