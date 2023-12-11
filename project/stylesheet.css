@@ -1,0 +1,21 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.id1{
+    box-shadow: 0cqi;
+    background-color: #ffd9d9;
+    overflow: hidden;
+}
+nav a {
+    float:left;
+    display: block;
+    color: black;
+    text-align:center;
+    padding: 10px 170px 20px 30px;
+    text-decoration:navy;
+    transition: 0.3s;
+}
