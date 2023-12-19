@@ -1,21 +1,93 @@
 h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size:30px;
+    font-size:30px 0px 0px 20px;
     font-weight: bold;
     color: black;
     text-align: center;
+    background-color:aqua;
 }
 .id1{
     box-shadow: 0cqi;
-    background-color: #ffd9d9;
+    background-color: #cf5050;
     overflow: hidden;
 }
+nav{
+    text-align: center;
+    display: flex;
+    justify-content:space-between ;
+}
+
 nav a {
-    float:left;
-    display: block;
-    color: black;
+    float: inline-start;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
     text-align:center;
-    padding: 10px 170px 20px 30px;
+    padding: 20px;;
     text-decoration:navy;
     transition: 0.3s;
+    
+
+}
+a:hover{
+    font-weight: bold;
+    color: black;
+    
+}
+.em1{
+    padding-left: 40px;
+}
+.em2{
+    padding-left: 40px;
+}
+em3{.
+    padding-left: 150px;
+}
+table,tr, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th{
+    border-color:saddlebrown;
+    text-align:center;
+    padding: 5px 10px 10px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+caption{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-display: block;
+    font-size: large;
+}
+table{
+    box-sizing:content-box;
+    -webkit-box-align: center;
+    padding: 0 200;
+    border:none;
+    
+}
+td{
+    font-style: normal;
+
+}
+body{
+    background-color: coral;
+}
+td:hover{
+        
+        color:lightgray;
+        font-weight: bolder;
+}
+h6{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    font-display: swap;
+    font-size:medium;
+
+}
+.p1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: double ;
+    box:flex;
 }
