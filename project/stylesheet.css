@@ -40,7 +40,7 @@ a:hover{
 .em2{
     padding-left: 40px;
 }
-em3{.
+em3{
     padding-left: 150px;
 }
 table,tr, td {
@@ -63,8 +63,9 @@ caption{
 table{
     box-sizing:content-box;
     -webkit-box-align: center;
-    padding: 0 200;
+    padding: 0 500px;
     border:none;
+    text-align: center;
     
 }
 td{
@@ -90,4 +91,27 @@ h6{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: double ;
     box:flex;
+}
+
+
+a{
+    align-items: center;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    border-radius: 50%;
+    animation: bounce 2s infinite;
+    animation-direction:reverse;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
 }
